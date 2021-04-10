@@ -153,19 +153,3 @@ button:focus {
 .modal .close:hover {
   background-color: rgb(226, 36, 26);
 }
-
-.modal-animation {
-  animation: show-modal .5s;
-}
-
-
-@keyframes show-modal {
-
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}

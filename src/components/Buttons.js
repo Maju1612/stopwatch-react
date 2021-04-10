@@ -1,3 +1,5 @@
+import Button from './Button'
+
 const Buttons = props => {
 return(
 <div className="buttons" >
@@ -28,21 +30,5 @@ return(
     />
 </div>
 )}
-
-
-const Button = props => {
-    if (props.iClassName) {
-      return(
-        <button className={props.btnClassName} onClick={props.click}>
-          <i className={props.iClassName}></i>
-          </button>
-      )
-      }else{
-        return(
-        <button className={props.btnClassName} onClick={props.click}>{props.text}</button>
-        )
-      }
-    }
-
 
     export default Buttons
